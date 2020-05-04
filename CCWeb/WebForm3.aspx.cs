@@ -25,6 +25,14 @@ namespace CCWeb
                 RadioButtonList9.SelectedIndex = 0;
                 RadioButtonList10.SelectedIndex = 0;
             }
+            
+            // should be able to remove this
+            if(Page.IsPostBack == true)
+            {
+                Label2.Text = "updated";
+                // The line below stops the db insert
+                // Server.Transfer("webInitialSuccess.aspx");
+            }
         }
 
         protected void BulletedList1_Click(object sender, BulletedListEventArgs e)
@@ -59,6 +67,9 @@ namespace CCWeb
                 insert.ExecuteNonQuery();
                 CoronaCupConnection.Close();
             }
+            
+            // 4.30 Transfer to a new page to show success - This worked!
+            Server.Transfer("webInitialSuccess.aspx");
         }
     }
 }

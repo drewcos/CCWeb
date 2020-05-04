@@ -143,12 +143,12 @@
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="webInitial Success.aspx.cs">
-      <DependentUpon>webInitial Success.aspx</DependentUpon>
+    <Compile Include="webInitialSuccess.aspx.cs">
+      <DependentUpon>webInitialSuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="webInitial Success.aspx.designer.cs">
-      <DependentUpon>webInitial Success.aspx</DependentUpon>
+    <Compile Include="webInitialSuccess.aspx.designer.cs">
+      <DependentUpon>webInitialSuccess.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -164,7 +164,7 @@
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
-    <Content Include="webInitial Success.aspx" />
+    <Content Include="webInitialSuccess.aspx" />
     <None Include="Properties\PublishProfiles\CoronaCup - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

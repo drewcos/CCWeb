@@ -167,7 +167,7 @@
             <asp:TextBox ID="TextBox1" runat="server" Height="32px" OnTextChanged="TextBox1_TextChanged" Width="386px">youremail@outlook.com</asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" PostBackUrl="~/webInitial Success.aspx" Text="Submit" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
         </p>
     </form>
 </body>
